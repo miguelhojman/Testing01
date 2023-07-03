@@ -1,0 +1,12 @@
+h2 {
+  text-align: center;
+  margin: 2rem;
+}
+.tabla {
+  width: 100%;
+  padding: 1rem;
+  border: 2px solid black;
+}
+thead {
+  font-size: 1.5rem;
+}

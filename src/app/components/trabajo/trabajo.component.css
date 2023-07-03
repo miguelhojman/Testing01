@@ -1,0 +1,22 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+.trabajo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+.list-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  gap: 1rem;
+}
+li {
+  background-color: rgb(194, 191, 191);
+  min-width: 100%;
+  text-align: center;
+}
