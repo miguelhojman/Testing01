@@ -4,8 +4,8 @@
   width: 100%;
   padding-left: 2rem;
   margin-top: 1.4rem;
-  position: fixed;
-  bottom: 0;
+  /* position: fixed;
+  bottom: 0; */
 }
 span {
   margin-right: 2rem;

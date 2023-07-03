@@ -12,6 +12,8 @@ import { MapaComponent } from './components/mapa/mapa.component';
 import { HistoriasComponent } from './components/historias/historias.component';
 import { DefectosComponent } from './components/defectos/defectos.component';
 import { MejorasComponent } from './components/mejoras/mejoras.component';
+import { CasosComponent } from './components/casos/casos.component';
+import { CriteriosComponent } from './components/criterios/criterios.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { MejorasComponent } from './components/mejoras/mejoras.component';
     MapaComponent,
     HistoriasComponent,
     DefectosComponent,
-    MejorasComponent
+    MejorasComponent,
+    CasosComponent,
+    CriteriosComponent
   ],
   imports: [
     BrowserModule,

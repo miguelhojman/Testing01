@@ -7,6 +7,8 @@ import { MapaComponent } from './components/mapa/mapa.component';
 import { HistoriasComponent } from './components/historias/historias.component';
 import { DefectosComponent } from './components/defectos/defectos.component';
 import { MejorasComponent } from './components/mejoras/mejoras.component';
+import { CasosComponent } from './components/casos/casos.component';
+import { CriteriosComponent } from './components/criterios/criterios.component';
 
 const routes: Routes = [
   { path: '', component: MainComponent },
@@ -17,6 +19,8 @@ const routes: Routes = [
   { path: 'historias', component: HistoriasComponent },
   { path: 'defectos', component: DefectosComponent },
   { path: 'mejoras', component: MejorasComponent },
+  { path: 'casos', component: CasosComponent },
+  { path: 'criterios', component: CriteriosComponent },
 ];
 
 @NgModule({
