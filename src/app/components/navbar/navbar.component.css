@@ -1,8 +1,10 @@
-.navbar {
+.navbar,
+.dropdown-menu {
   background-color: rgb(194, 191, 191);
   font-weight: 700;
   font-size: 1.3rem;
 }
+
 img {
   width: 150px;
   height: auto;

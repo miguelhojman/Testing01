@@ -1,17 +1,29 @@
 h1,
 h2 {
   text-align: center;
-  margin: 1rem;
+  margin: 0.4rem;
 }
 .caratula {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 1rem;
 }
 .card {
   width: 100%;
-  margin: 2rem;
+  margin: 0.2rem;
   padding: 1rem;
+}
+.card-header {
+  font-size: 1.3rem !important;
+  text-align: center;
+}
+.card-body {
+  font-size: 1.8rem !important;
+  text-align: center;
+}
+a {
+  color: white;
+  text-decoration: none;
 }
