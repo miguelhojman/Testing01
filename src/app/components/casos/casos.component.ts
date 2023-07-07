@@ -14,26 +14,24 @@ export class CasosComponent {
       Tester: 'Mary Marin',
       Criticidad: 'Alta',
       Precondiciones: {
-        a: '',
-        b: '',
-        c: '',
+        a: '1.- Estar en la página web www.saucedemo.com.',
+        b: '2.- Contar con una cuenta válida',
       },
       Datos: {
         a: 'Username: problem_user',
         b: 'Password: secret_sause',
       },
       Pasos: {
-        a: '',
-        b: '',
-        c: '',
+        a: '1.- Ingresar datos válidos en username y password.',
+        b: '2.- Hacer Click en botón de color verde Login.',
       },
       ResultadoE: {
-        a: '',
-        b: '',
+        a: '1.- Ingresar a la página principal.',
+        b: '2.- Que muestre el Catalogo de Productos.',
       },
       ResultadoO: {
-        a: '',
-        b: '',
+        a: '1.- Permite el acceso a la página principal home ',
+        b: '2.- Muestra el Catálogo de productos',
       },
       Estado: 'Aprobado',
       Observaciones:
@@ -46,26 +44,22 @@ export class CasosComponent {
       Tester: 'Mary Marin',
       Criticidad: 'Media',
       Precondiciones: {
-        a: '',
-        b: '',
-        c: '',
+        a: '1.- Estar en la página web www.saucedemo.com',
       },
       Datos: {
         a: 'Username: problem_user',
         b: 'Password: secret_sause',
       },
       Pasos: {
-        a: '',
-        b: '',
-        c: '',
+        a: '1.- Ingresar datos Inválidos en username y password.',
+        b: '2.- Hacer Click en botón de color verde Login.',
       },
       ResultadoE: {
-        a: '',
-        b: '',
+        a: 'Devuelve el mensaje de "Epic sadface: el username y el password do not match any user in this service"',
       },
       ResultadoO: {
-        a: '',
-        b: '',
+        a: '1.- No permite el acceso.',
+        b: '2.- Muestra mensaje de error de username y password.',
       },
       Estado: 'Aprobado',
       Observaciones:
@@ -78,26 +72,22 @@ export class CasosComponent {
       Tester: 'César Martínez',
       Criticidad: 'Media',
       Precondiciones: {
-        a: '',
-        b: '',
-        c: '',
+        a: '1.- Estar en la página web www.saucedemo.com',
       },
       Datos: {
         a: 'Username: problem_user',
         b: 'Password: secret_sause',
       },
       Pasos: {
-        a: '',
-        b: '',
-        c: '',
+        a: '1.- Ingresar sin datos en username y password',
+        b: '2.- Hacer Click en botón de color verde Login',
       },
       ResultadoE: {
-        a: '',
-        b: '',
+        a: 'Devuelve el mensaje de "Epic sadface: username is required',
       },
       ResultadoO: {
-        a: '',
-        b: '',
+        a: '1.- No permite el acceso.',
+        b: '2.- Muestra mensaje de error de username y password',
       },
       Estado: 'Aprobado',
       Observaciones:
@@ -110,30 +100,26 @@ export class CasosComponent {
       Tester: 'César Martínez',
       Criticidad: 'Media',
       Precondiciones: {
-        a: '',
-        b: '',
-        c: '',
+        a: '1.- Estar en la página web www.saucedemo.com',
       },
       Datos: {
         a: 'Username: problem_user',
         b: 'Password: secret_sause',
       },
       Pasos: {
-        a: '',
-        b: '',
-        c: '',
+        a: '1.- Ingresar con datos válidos en username y password inválido.',
+        b: '2.- Hacer Click en botón de color verde Login',
       },
       ResultadoE: {
-        a: '',
-        b: '',
+        a: 'Devuelve el mensaje de "Epic sadface: el username y el password do not match any user in this service"',
       },
       ResultadoO: {
-        a: '',
-        b: '',
+        a: '1.- No permite el acceso.',
+        b: '2 .- Muestra mensaje de error de username y password',
       },
       Estado: 'Aprobado',
       Observaciones:
-        'https://drive.google.com/drive/u/0/folders/1VyvWXzXbszRDuvtwSd3PdKT8ZQ_63omv',
+        'https://drive.google.com/drive/u/0/folders/1VyvWXzXbszRDuvtwSd3PdKT8ZQ_63omv  ',
     },
     {
       Escenario: 'Login',
@@ -142,26 +128,22 @@ export class CasosComponent {
       Tester: 'César Martínez',
       Criticidad: 'Media',
       Precondiciones: {
-        a: '',
-        b: '',
-        c: '',
+        a: '1.- Estar en la página web www.saucedemo.com',
       },
       Datos: {
         a: 'Username: problem_user',
         b: 'Password: secret_sause',
       },
       Pasos: {
-        a: '',
-        b: '',
-        c: '',
+        a: '1.- Ingresar con datos inválidos en username y password válido.',
+        b: '2.- Hacer Click en botón de color verde Login.',
       },
       ResultadoE: {
-        a: '',
-        b: '',
+        a: 'Devuelve el mensaje de "Epic sadface: el username y el password do not match any user in this service"',
       },
       ResultadoO: {
-        a: '',
-        b: '',
+        a: '1.- No permite el acceso.',
+        b: '2.- Muestra mensaje de error de username y password.',
       },
       Estado: 'Aprobado',
       Observaciones:
@@ -174,30 +156,25 @@ export class CasosComponent {
       Tester: 'Verónica López Perea',
       Criticidad: 'Alta',
       Precondiciones: {
-        a: '',
-        b: '',
-        c: '',
+        a: '1.- Estar en la página web www.saucedemo.com',
+        b: '2.- Estar en la página principal (home)',
       },
       Datos: {
         a: 'Username: problem_user',
         b: 'Password: secret_sause',
       },
       Pasos: {
-        a: '',
-        b: '',
-        c: '',
+        a: '1.- Hacer Click en el botón Add to cart (Añadir al carrito) correspondiente a un producto elegido ',
+        b: '2.- Repetir por cada producto que quiera agregarse al carrito',
       },
       ResultadoE: {
-        a: '',
-        b: '',
+        a: 'Que en cada caso se agregue 1 producto al Cart (carrito)',
       },
       ResultadoO: {
-        a: '',
-        b: '',
+        a: 'En algunos casos lo agrega y en otros no.',
       },
-      Estado: 'Aprobado',
-      Observaciones:
-        'https://drive.google.com/drive/u/0/folders/1VyvWXzXbszRDuvtwSd3PdKT8ZQ_63omv',
+      Estado: 'Falló',
+      Observaciones: 'https://prnt.sc/cbQHB1d5Yj3k',
     },
     {
       Escenario: 'Producto',
@@ -207,30 +184,25 @@ export class CasosComponent {
       Tester: 'Verónica López Perea',
       Criticidad: 'Alta',
       Precondiciones: {
-        a: '',
-        b: '',
-        c: '',
+        a: '1.- Estar en la página web www.saucedemo.com',
+        b: '2.- Estar en la página principal (home) ',
+        c: '3.- Que en el carrito haya agregado por lo menos un producto',
       },
       Datos: {
         a: 'Username: problem_user',
         b: 'Password: secret_sause',
       },
       Pasos: {
-        a: '',
-        b: '',
-        c: '',
+        a: '1.- Hacer Click en el botón blanco Add to cart (Añadir al carrito) correspondiente al producto',
       },
       ResultadoE: {
-        a: '',
-        b: '',
+        a: 'Que se agregue 1 producto al Cart (carrito)',
       },
       ResultadoO: {
-        a: '',
-        b: '',
+        a: 'No aparece el botón Add to Cart (añadir al carrito), fue reemplazado por el botón Remove (eliminar)',
       },
-      Estado: 'Aprobado',
-      Observaciones:
-        'https://drive.google.com/drive/u/0/folders/1VyvWXzXbszRDuvtwSd3PdKT8ZQ_63omv',
+      Estado: 'Bloqueado',
+      Observaciones: 'https://prnt.sc/TRaE-mdxV9Yc',
     },
     {
       Escenario: 'Producto',
@@ -239,30 +211,27 @@ export class CasosComponent {
       Tester: 'José Luis Manto',
       Criticidad: 'Media',
       Precondiciones: {
-        a: '',
-        b: '',
-        c: '',
+        a: '1.- Estar en la página web www.saucedemo.com',
+        b: '2.- Estar en la página principal (home)',
       },
       Datos: {
         a: 'Username: problem_user',
         b: 'Password: secret_sause',
       },
       Pasos: {
-        a: '',
-        b: '',
-        c: '',
+        a: '1.- Hacer Click en el título de un producto.',
+        b: '2.- Hacer Click en el botón Add to cart (Añadir al carrito)',
       },
       ResultadoE: {
-        a: '',
-        b: '',
+        a: '1.- Que aparezca información del producto seleccionado y permita cargarlo al carrito con el botón Add to cart (agregar al carrito)',
+        b: '2.- Que se agregue 1 producto al Cart (carrito)',
       },
       ResultadoO: {
-        a: '',
-        b: '',
+        a: 'Aparece información de otro producto con su botón Add to cart (agregar al carrito)',
       },
-      Estado: 'Aprobado',
+      Estado: 'Falló',
       Observaciones:
-        'https://drive.google.com/drive/u/0/folders/1VyvWXzXbszRDuvtwSd3PdKT8ZQ_63omv',
+        'https://prnt.sc/OZZgzaXPvh73 https://prnt.sc/KzkXi4p46cyP',
     },
     {
       Escenario: 'Producto',
@@ -271,30 +240,27 @@ export class CasosComponent {
       Tester: 'José Luis Manto',
       Criticidad: 'Media',
       Precondiciones: {
-        a: '',
-        b: '',
-        c: '',
+        a: '1.- Estar en la página web www.saucedemo.com',
+        b: '2.- Estar en la página principal (home)',
       },
       Datos: {
         a: 'Username: problem_user',
         b: 'Password: secret_sause',
       },
       Pasos: {
-        a: '',
-        b: '',
-        c: '',
+        a: '1.- Hacer Click en add to cart (añadir al carrito) del producto. ',
+        b: '2.- Hacer Click en el ícono del carrito (Imagen superior derecha)',
+        c: '3.- Aparece la ventana con el producto y el cuadrado con las cantidades a comprar.',
+        d: '4.- Si se quiere comprar mas de una unidad se tendría que modificar dentro del espacio donde dice "1"',
       },
       ResultadoE: {
-        a: '',
-        b: '',
+        a: 'Colocar la cantidad que se necesite comprar',
       },
       ResultadoO: {
-        a: '',
-        b: '',
+        a: 'No se puede modificar el nro de unidades (QTY)',
       },
-      Estado: 'Aprobado',
-      Observaciones:
-        'https://drive.google.com/drive/u/0/folders/1VyvWXzXbszRDuvtwSd3PdKT8ZQ_63omv',
+      Estado: 'Falló',
+      Observaciones: 'https://prnt.sc/nF-IrH6Xpahd',
     },
     {
       Escenario: 'Página Principal',
@@ -303,30 +269,24 @@ export class CasosComponent {
       Tester: 'Miguel Hojman',
       Criticidad: 'Alta',
       Precondiciones: {
-        a: '',
-        b: '',
-        c: '',
+        a: '1.- Contar con datos válidos de una cuenta.',
+        b: '2.- Ingresar a la página https://www.saucedemo.com',
       },
       Datos: {
         a: 'Username: problem_user',
         b: 'Password: secret_sause',
       },
       Pasos: {
-        a: '',
-        b: '',
-        c: '',
+        a: 'Hacer Click en el ícono del Carrito de Compras',
       },
       ResultadoE: {
-        a: '',
-        b: '',
+        a: 'Se redirecciona a la página Your Cart (Tu carrito)',
       },
       ResultadoO: {
-        a: '',
-        b: '',
+        a: 'Se redirecciona a la página "Your Cart" (Tu carrito)',
       },
       Estado: 'Aprobado',
-      Observaciones:
-        'https://drive.google.com/drive/u/0/folders/1VyvWXzXbszRDuvtwSd3PdKT8ZQ_63omv',
+      Observaciones: 'N/A',
     },
     {
       Escenario: 'Página "Your Cart"',
@@ -335,30 +295,25 @@ export class CasosComponent {
       Tester: 'Miguel Hojman',
       Criticidad: 'Alta',
       Precondiciones: {
-        a: '',
-        b: '',
-        c: '',
+        a: '1.- Contar con datos válidos de una cuenta',
+        b: '2.- Ingresar a la página https://www.saucedemo.com/',
+        c: '3.- Ingresar a la página del carrito haciendo Click en el ícono del Carrito de Compras',
       },
       Datos: {
         a: 'Username: problem_user',
         b: 'Password: secret_sause',
       },
       Pasos: {
-        a: '',
-        b: '',
-        c: '',
+        a: 'Hacer Click en el botón Continue Shopping (Continuar comprando)',
       },
       ResultadoE: {
-        a: '',
-        b: '',
+        a: 'Se redirecciona a la Home (Página Principal)',
       },
       ResultadoO: {
-        a: '',
-        b: '',
+        a: 'Se redirecciona a la Home (Página Principal)',
       },
       Estado: 'Aprobado',
-      Observaciones:
-        'https://drive.google.com/drive/u/0/folders/1VyvWXzXbszRDuvtwSd3PdKT8ZQ_63omv',
+      Observaciones: 'N/A',
     },
     {
       Escenario: 'Página "Your Cart"',
@@ -367,30 +322,25 @@ export class CasosComponent {
       Tester: 'Miguel Hojman',
       Criticidad: 'Alta',
       Precondiciones: {
-        a: '',
-        b: '',
-        c: '',
+        a: '1.- Contar con datos válidos de una cuenta',
+        b: '2.- Ingresar a la página https://www.saucedemo.com/',
+        c: 'Ingresar a la página del carrito haciendo Click en el ícono del Carrito de Compras',
       },
       Datos: {
         a: 'Username: problem_user',
         b: 'Password: secret_sause',
       },
       Pasos: {
-        a: '',
-        b: '',
-        c: '',
+        a: 'Hacer Click en el botón Checkout (verificar)',
       },
       ResultadoE: {
-        a: '',
-        b: '',
+        a: 'Se redirecciona al formulario de Your Information (Datos Personales)',
       },
       ResultadoO: {
-        a: '',
-        b: '',
+        a: 'Se redirecciona al formulario de Your Information (Datos Personales)',
       },
       Estado: 'Aprobado',
-      Observaciones:
-        'https://drive.google.com/drive/u/0/folders/1VyvWXzXbszRDuvtwSd3PdKT8ZQ_63omv',
+      Observaciones: 'N/A',
     },
     {
       Escenario: 'Página "Your Cart"',
@@ -399,30 +349,26 @@ export class CasosComponent {
       Tester: 'Miguel Hojman',
       Criticidad: 'Alta',
       Precondiciones: {
-        a: '',
-        b: '',
-        c: '',
+        a: '1.- Contar con datos válidos de una cuenta',
+        b: '2.- Ingresar a la página https://www.saucedemo.com/',
+        c: '3.- Seleccionar al menos un producto del catálogo.',
+        d: '4.- Ingresar a la página del carrito haciendo Click en el ícono del Carrito de Compras',
       },
       Datos: {
         a: 'Username: problem_user',
         b: 'Password: secret_sause',
       },
       Pasos: {
-        a: '',
-        b: '',
-        c: '',
+        a: 'Hacer Click en el botón Remove (Eliminar)',
       },
       ResultadoE: {
-        a: '',
-        b: '',
+        a: 'Se elimina el producto de Your Cart (Tu carrito)',
       },
       ResultadoO: {
-        a: '',
-        b: '',
+        a: 'Se elimina el producto del icono Cart (Carrito de Compras)',
       },
       Estado: 'Aprobado',
-      Observaciones:
-        'https://drive.google.com/drive/u/0/folders/1VyvWXzXbszRDuvtwSd3PdKT8ZQ_63omv',
+      Observaciones: 'N/A',
     },
     {
       Escenario: 'Cart',
@@ -431,30 +377,25 @@ export class CasosComponent {
       Tester: 'José Rivero',
       Criticidad: 'Alta',
       Precondiciones: {
-        a: '',
-        b: '',
-        c: '',
+        a: '1.- Estar en la página principal ',
+        b: '2.- Que existan productos seleccionados',
       },
       Datos: {
         a: 'Username: problem_user',
         b: 'Password: secret_sause',
       },
       Pasos: {
-        a: '',
-        b: '',
-        c: '',
+        a: '1.- Hacer Click en el botón Negro Cart (Carrito) ',
+        b: '2.- Que redireccione a la página Your Cart (tu carrito)',
       },
       ResultadoE: {
-        a: '',
-        b: '',
+        a: 'Que redireccione a la página Your Cart (Tu Carrito)',
       },
       ResultadoO: {
-        a: '',
-        b: '',
+        a: 'Muestra el resultado deseado',
       },
       Estado: 'Aprobado',
-      Observaciones:
-        'https://drive.google.com/drive/u/0/folders/1VyvWXzXbszRDuvtwSd3PdKT8ZQ_63omv',
+      Observaciones: 'N/A',
     },
     {
       Escenario: 'Your Cart',
@@ -464,30 +405,28 @@ export class CasosComponent {
       Tester: 'José Rivero',
       Criticidad: 'Alta',
       Precondiciones: {
-        a: '',
-        b: '',
-        c: '',
+        a: '1.- Estar en la página Your cart (Tu carrito) ',
+        b: '2.- Que exista o no productos seleccionados en la Description (Descripción)',
       },
       Datos: {
         a: 'Username: problem_user',
         b: 'Password: secret_sause',
       },
       Pasos: {
-        a: '',
-        b: '',
-        c: '',
+        a: '1.- Hacer Click en la imagen del producto seleccionado. ',
+        b: '2.- De estar conforme con el mismo y permita volver a la página para confirmar selección de compra ',
+        c: '3.- Hacer Click en el botón Back to products (volver a productos) en el extremo izquierdo del lado de abajo',
       },
       ResultadoE: {
-        a: '',
-        b: '',
+        a: '1.- Que redireccione a la página principal de selección de producto. ',
+        b: '2.- Al estar conforme con el producto, que redireccione a la página Your cart (Tu carrito) para terminar el chequeo del carrito de compra',
       },
       ResultadoO: {
-        a: '',
-        b: '',
+        a: '1.- En el primer caso si redirige a la página Back to products (Volver a los productos)',
+        b: '2.- Al verificar que coincide la imagen del producto seleccionado y hacer Click en botón Back to producto (volver al producto) retornar a la página de productos.No retorna a la página Your cart (Tu carrito) para concretar la compra.',
       },
-      Estado: 'Aprobado',
-      Observaciones:
-        'https://drive.google.com/drive/u/0/folders/1VyvWXzXbszRDuvtwSd3PdKT8ZQ_63omv',
+      Estado: 'Falló',
+      Observaciones: 'https://prnt.sc/fMaIEpRClEz6',
     },
     {
       Escenario: 'Checkout',
@@ -496,30 +435,24 @@ export class CasosComponent {
       Tester: 'José Rivero',
       Criticidad: 'Alta',
       Precondiciones: {
-        a: '',
-        b: '',
-        c: '',
+        a: '1.- Estar en la página Your cart (Tu carrito) ',
+        b: '2.- Que exista productos seleccionados en la Description (Descripción)',
       },
       Datos: {
         a: 'Username: problem_user',
         b: 'Password: secret_sause',
       },
       Pasos: {
-        a: '',
-        b: '',
-        c: '',
+        a: '1. Hacer Click en botón Verde Checkout (Verificar) ubicado en el extremo derecho del lado de abajo.',
       },
       ResultadoE: {
-        a: '',
-        b: '',
+        a: 'Que redireccione a la página Checkout: Your Information (Verificar: Su información).',
       },
       ResultadoO: {
-        a: '',
-        b: '',
+        a: 'Muestra el resultado deseado',
       },
       Estado: 'Aprobado',
-      Observaciones:
-        'https://drive.google.com/drive/u/0/folders/1VyvWXzXbszRDuvtwSd3PdKT8ZQ_63omv',
+      Observaciones: 'N/A',
     },
   ];
 }
