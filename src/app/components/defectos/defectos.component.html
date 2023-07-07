@@ -1,1 +1,53 @@
-<p>defectos works!</p>
+<h2>Reporte de defectos</h2>
+<br /><br />
+<div class="table-container">
+  <table class="table table-striped table-bordered">
+    <thead>
+      <tr>
+        <th scope="col">ID</th>
+        <th scope="col">Fecha</th>
+        <th scope="col">Tipo</th>
+        <th scope="col">Tester</th>
+        <th scope="col">Título</th>
+        <th scope="col">Elemento</th>
+        <th scope="col">Descripción</th>
+        <th scope="col">Resultado Esperado</th>
+        <th scope="col">Resultado Real</th>
+        <th scope="col">Impacto</th>
+        <th scope="col">Prioridad</th>
+        <th scope="col">Estado</th>
+        <th scope="col">Referencias</th>
+        <th scope="col" class="notas">Notas</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of array">
+        <th scope="row">{{ item.ID }}</th>
+        <td>{{ item.Fecha }}</td>
+        <td>{{ item.Tipo }}</td>
+        <td>{{ item.Tester }}</td>
+        <td>{{ item.Titulo }}</td>
+        <td>{{ item.Elemento }}</td>
+        <td>
+          <h6>{{ item.Descripcion.a }}</h6>
+          <h6>{{ item.Descripcion.b }}</h6>
+          <h6>{{ item.Descripcion.c }}</h6>
+          <h6>{{ item.Descripcion.d }}</h6>
+        </td>
+        <!-- ---------------------------------nn -->
+        <td>
+          <h6>{{ item.Resultadoesperado.a }}</h6>
+          <h6>{{ item.Resultadoesperado.b }}</h6>
+        </td>
+        <!----------------------------------------------->
+        <td>{{ item.Resultadoreal }}</td>
+        <td>{{ item.Impacto }}</td>
+        <td>{{ item.Prioridad }}</td>
+        <td>{{ item.Estado }}</td>
+        <td>{{ item.Referencia }}</td>
+
+        <td>{{ item.Notas }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
