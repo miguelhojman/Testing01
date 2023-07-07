@@ -1,43 +1,56 @@
-<!-- <h2>Casos de prueba (Test Cases)</h2>
+<h2>Casos de Prueba</h2>
 <br /><br />
 <div class="table-container">
-  <table class="table table-striped table-bordered">
-    <thead>
+  <table class="table table-bordered">
+    <thead class="header">
       <tr>
-        <th scope="col">ID</th>
-        <th scope="col">Fecha</th>
-        <th scope="col">Tipo</th>
-        <th scope="col">Tester</th>
+        <th scope="col">Escenario</th>
+        <th scope="col">ID Caso de Prueba</th>
         <th scope="col">Título</th>
-        <th scope="col">Elemento</th>
-        <th scope="col">Descripción</th>
+        <th scope="col">Tester</th>
+        <th scope="col">Criticidad</th>
+        <th scope="col">Precondiciones</th>
+        <th scope="col">Datos de Entrada</th>
+        <th scope="col">Pasos</th>
         <th scope="col">Resultado Esperado</th>
-        <th scope="col">Resultado Real</th>
-        <th scope="col">Impacto</th>
-        <th scope="col">Prioridad</th>
+        <th scope="col">Resultado Obtenido</th>
         <th scope="col">Estado</th>
-        <th scope="col">Referencias</th>
-        <th scope="col" class="notas">Notas</th>
+        <th scope="col" class="notas">Observaciones</th>
       </tr>
     </thead>
     <tbody>
       <tr *ngFor="let item of array">
-        <th scope="row">{{ item.ID }}</th>
-        <td>{{ item.Fecha }}</td>
-        <td>{{ item.Tipo }}</td>
-        <td>{{ item.Tester }}</td>
+        <th scope="row">{{ item.Escenario }}</th>
+        <td>{{ item.ID }}</td>
         <td>{{ item.Titulo }}</td>
-        <td>{{ item.Elemento }}</td>
-        <td>{{ item.Descripcion }}</td>
-        <td>{{ item.Resultadoesperado }}</td>
-        <td>{{ item.Resultadoreal }}</td>
-        <td>{{ item.Impacto }}</td>
-        <td>{{ item.Prioridad }}</td>
+        <td>{{ item.Tester }}</td>
+        <td>{{ item.Criticidad }}</td>
+        <td>
+          <h6>{{ item.Precondiciones.a }}</h6>
+          <h6>{{ item.Precondiciones.b }}</h6>
+          <h6>{{ item.Precondiciones.c }}</h6>
+        </td>
+        <td>
+          <h6>{{ item.Datos.a }}</h6>
+          <h6>{{ item.Datos.b }}</h6>
+        </td>
+        <td>
+          <h6>{{ item.Pasos.a }}</h6>
+          <h6>{{ item.Pasos.b }}</h6>
+          <h6>{{ item.Pasos.c }}</h6>
+        </td>
+        <!----------------------------------------------->
+        <td>
+          <h6>{{ item.ResultadoE.a }}</h6>
+          <h6>{{ item.ResultadoE.b }}</h6>
+        </td>
+        <td>
+          <h6>{{ item.ResultadoO.a }}</h6>
+          <h6>{{ item.ResultadoO.b }}</h6>
+        </td>
         <td>{{ item.Estado }}</td>
-        <td>{{ item.Referencia }}</td>
-
-        <td>{{ item.Notas }}</td>
+        <td>{{ item.Observaciones }}</td>
       </tr>
     </tbody>
   </table>
-</div> -->
+</div>
