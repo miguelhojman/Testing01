@@ -21,3 +21,23 @@ a {
   background-color: rgb(58, 56, 56);
   color: white;
 }
+.card {
+  width: 17rem;
+  max-width: 55rem;
+}
+
+@media only screen and (min-width: 576px) {
+  .card {
+    width: 22rem;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .card {
+    width: 32rem;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .card {
+    width: 37rem;
+  }
+}

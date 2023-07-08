@@ -1,5 +1,4 @@
 .navbar {
-  /* background-color: rgb(194, 191, 191); */
   font-weight: 700;
   font-size: 1.3rem;
   width: 100%;
@@ -13,4 +12,8 @@ img {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
 }
