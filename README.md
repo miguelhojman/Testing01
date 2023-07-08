@@ -1,4 +1,4 @@
-# Spa
+# Testing 01
 
 Este proyecto es un sitio web que nos muestra el Primer Proyecto Integrador del Curso de Testing Manual Funcional dictado por SilverTech.
 Contiene un MAPEO de un sitio a testear y las HISTORIAS DE USUARIO con sus respectivos CRITERIOS DE ACEPTACIÓN
